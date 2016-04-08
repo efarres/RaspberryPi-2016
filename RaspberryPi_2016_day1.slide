@@ -1,0 +1,167 @@
+Rapsberry Pi 
+Day 1
+17 Feb 2016
+Tags: Raspberry Pi, Operating System, Distros, Peripherals
+
+Esteve Farrés Berenguer
+Baby Gopher, for the moment. Base42 Jedi
+https://base42.org/
+esteve.farres@gmail.com
+https://plus.google.com/u/0/+EsteveFarresBerenguer
+esteve.farres@gmail.com
+@estfarr
+
+* Ready?
+.image image/Raspberry_Pi_Logo.png
+.image image/Raspberrypi_block_function_v01.svg.png
+
+[[https://www.raspberrypi.org/documentation/hardware/raspberrypi/][Raspberry Pi Hardware]]
+[[https://www.element14.com/community/community/raspberry-pi][Raspberry Pi Element14.com]]
+[[http://elinux.org/RPi_Hub][elinux.org]]
+[[https://en.wikipedia.org/wiki/Raspberry_Pi][Raspberry Pi - Wikipedia]]
+
+Raspberry Pi Model A, B, A+ and B+. Raspberry Pi Zero (a half size of a Model A+)
+Raspberry Pi 2
+
+
+* Raspberry Pi
+The Raspberry Pi is based on the Broadcom BCM2835 system on a chip (SoC):
+
+.image image/Raspberry_Pi_B+_top.jpg _ 350
+
+- CPU: [[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0301h/index.html][ARM1176JZF-S]] (ARMv6 instruction set) @700 MHz 
+- GPU: Broadcom VideoCore IV GPU @250MHz
+- Size: Credit card
+
+* Raspberry Pi 2
+The Raspberry Pi is based on the Broadcom BCM2836 system on a chip (SoC):
+(ARMv7 instruction set)
+
+.image image/Raspberry_Pi_2_top.jpg _ 350
+
+- CPU: [[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0464f/index.html][Cortex-A7 quad-core Processor]]
+- GPU: Broadcom VideoCore IV GPU @250MHz
+- Size: Credit card
+
+* Raspberry Pi Zero
+The [[https://learn.adafruit.com/introducing-the-raspberry-pi-zero/a-tour-of-the-pi-zero][Raspberry Pi Zero]] is based on the Broadcom BCM2835 system on a chip (SoC):
+
+.image image/Raspberry_Pi_zero_top.jpg _ 350
+
+Size: Credit card/2
+
+- CPU: [[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0301h/index.html][ARM1176JZF-S]] (ARMv6 instruction set) @1 GHz 
+- GPU: Broadcom VideoCore IV GPU @250MHz
+
+* Raspberry Pi - Peripherals 1/3
+[[http://elinux.org/RPi_Low-level_peripherals#General_Purpose_Input.2FOutput_.28GPIO.29][elinux.org - RPi Low-level Peripherals]]
+
+.image image/GPIOs.png _ 200
+
+* Raspberry Pi - Peripherals 2/3
+
+.image image/300px-Pi-GPIO-header.png
+
+* Raspberry Pi - Peripherals 2/3
+
+[[http://elinux.org/RPi_Low-level_peripherals#cite_note-24][MIPI CSI-2 Camera Interface]]. 
+[[http://elinux.org/RPi_Low-level_peripherals#cite_note-26][DSI Display Serial Interface]].
+[[http://elinux.org/CEC_(Consumer_Electronics_Control)_over_HDMI][HDMI-CEC Consumer Electronic Control for HDMI]].
+[[http://elinux.org/RPi_Tutorial_Easy_GPIO_Hardware_%26_Software][GPIO]]
+[[http://elinux.org/RPi_SPI][SPI]]
+[[https://en.wikipedia.org/wiki/I%C2%B2C][I2C bus]]
+[[https://en.wikipedia.org/wiki/Pulse-width_modulation][PWM Pulse-width Modulation]] Servo Control, Power delivery, Audio
+[[https://en.wikipedia.org/wiki/1-Wire][1-wire]] and others implemented as bitbanging on the GPIO ports, results in higher CPU usage.
+[[https://www.raspberrypi.org/blog/introducing-raspberry-pi-hats/][HAT]] (Hardware Attached on Top) expansion boards
+
+JTAG: ARM JTAG (P1 header alternative function), VideoCore (P2 header), LAN9512 (P3 header)
+
+* Raspberry Pi zero - Peripherals
+
+Mini HDMI
+USB On-The-Go
+Micro USB power
+Same HAT-compatible 40-pin header, GPIO header, SPI, I2C 
+Composite Video
+
+* Raspberry Pi History
+
+Original objetive [[https://www.raspberrypi.org/about/][The Making of Pi]]
+
+Concerned about the year-on-year decline in the numbers and skills levels of the A Level students applying to read Computer Science.
+
+Home PC and games console vs. the Amigas, BBC Micros, Spectrum ZX and Commodore 64 machines. Earlier generation learned to program on.
+
+Licensed manufacture to element 14/Premier Farnell and RS Electronics. Within two years it had sold over two million units.
+
+* Raspberry Pi Operating System
+
+[[https://www.raspbian.org/][Raspbian]] - Debian variant optimized for the ARMv6 Raspbian based on Debian.
+
+.image image/raspbian_logo.png
+
+* OS other options
+Raspberry Pi
+
+Linux
+
+[[https://www.riscosopen.org/content/downloads/raspberry-pi][RISC OS]]
+
+Plan 9 - UNIX-Like
+
+Windows 10 IoT Core Edition (Raspberry Pi2)
+
+* Official Distros
+[[https://www.raspbian.org/][Raspbian]] - Debian.
+
+[[http://archlinuxarm.org/][Arch Linux ARM]] 
+
+* Other Distros
+
+[[http://pidora.ca/][Pidora]] - Fedora.
+
+[[https://openwrt.org/][openWrt]] for embedded devices, gateways.
+
+RetroPie classic games (Raspberry Pi2)
+Pi MusicBox music-oozing jukebox.
+OSMC TV box (Kodi)
+OpenMediaVault NAS network Attached Storage
+
+[[http://elinux.org/RPi_Distributions#Arch][Official list at elinux.org]]
+
+* installing OS
+
+
+* Desktop
+
+LXDE (Lightweight Desktop - Xorg)
+KDE
+Gnome
+MATE (Gnome 2.0)
+Maynard (Wayland)
+
+
+* Programing
+[[http://www.dummies.com/how-to/content/top-10-programming-languages-ported-to-the-raspber.html][Top 10 Programming Languages Ported to the Raspberry Pi]]
+
+Python recommended by the Raspberry Pi Fundation.
+
+Scratch
+
+C, C++
+
+Java, JavaScript
+
+Any language which will compile for ARMv6 (Pi 1) or ARMv7 (Pi 2) can be used with the Raspberry Pi.
+
+
+* References
+Makers
+
+Programmers
+
+Documentation
+[[https://www.raspberrypi.org/help/faqs/][Raspberry Pi FAQs]]
+
+Code
+
